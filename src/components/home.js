@@ -44,7 +44,6 @@ const Home = () => {
             </h4>
             < Personality setPersonality={() => setPersonality(true)} />
 
-            <p>This is only for github commits</p>
 
 
         </main>)
