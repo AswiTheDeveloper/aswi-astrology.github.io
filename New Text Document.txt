@@ -1,0 +1,64 @@
+@.03/01/23..!
+FINISH UI AS EARLY AS POSSIBLE
+
+
+*Personality
+*Positives and negatives
+*Match Making/ Matrimonial
+
+(When the moon is full, you may suddenly find yourself on the couch sobbing over your first love. Where did that come from? Research dating back as far as 400 B.C “blamed the behavioural changes on the pull of the moon. The word ‘lunatic’ after all, came from the idea that changes in the mental state were related to lunar cycles,” according to Healthline.)
+
+*if possible use API
+*common Trouble Periods
+*Daily Horoscope
+
+
+
+*Provides horoscope info for sun signs such as Lucky Number, Lucky Color, Mood, Color, Compatibility with other sun signs, description of a sign for that day, etc.
+import axios from "axios";
+
+const options = {
+  method: 'POST',
+  url: 'https://sameer-kumar-aztro-v1.p.rapidapi.com/',
+  params: {sign: 'aquarius', day: 'today'},
+  headers: {
+    'X-RapidAPI-Key': 'eb396e0cbdmshe638a9630b72f87p136c29jsn710173b09b44',
+    'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
+
+
+
+
+
+
+
+
+
+#NOTE @1
+So if you are open minded and want to entertain yourself then see for yourself. You may be very surprised by what you discover!
+There is something about Astrology, it doesn’t matter whether you believe in it or not, but it fascinates you like nothing else.
+
+
+#NOTE@1.1 
+It is logical that the planets can influence man on earth, since human body is made up of earthly mater like water, iron, calcium, etc.
+
+
+#NOTE@2
+
+The real modern use of Astrology is as a COUNSELLING TOOL. It is a very accurate (in most cases where the birth data is accurate) method of assessing:–
+
+personality of the individual
+strengths and weaknesses
+skills and talents
+best type of work or professions
+areas of life which need more work done,
+the dynamic of relationships - with parents, siblings, work-mates, lovers etc.
+the possibility of achieving prosperity
+predisposition to certain diseases
