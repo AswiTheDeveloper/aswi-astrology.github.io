@@ -37,7 +37,7 @@ head of the family`, ['Leader', 'Independent', 'Creative']);
 
 
 
-const two = new DataExpressionNumber(2, 'MOON', `You are ruled and influenced by the planet Moon. Number 2 represents sensitivity, imagination and dream
+const two = new DataExpressionNumber(2, 'MOON', `You are ruled and influenced by the Moon. Number 2 represents sensitivity, imagination and dream
 oriented nature. You are such a romantic and co-operative person that people want to live with you as people
 know you as a real peacemaker.The more energy of
 number two may make you shy, oversensitive and makes you a fantasy dreamer`, ['Diplomat', 'Sensitive', 'Peacemaker']);
